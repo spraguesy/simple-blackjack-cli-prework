@@ -64,7 +64,6 @@ def runner
   # code runner here
   welcome
   sum_of_cards = initial_round
-  display_card_total(sum_of_cards)
   until sum_of_cards > 21 do
     new_total = hit?(sum_of_cards)
     sum_of_cards = new_total
